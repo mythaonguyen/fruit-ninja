@@ -22,25 +22,6 @@ Deploy to **GitHub Pages** (see below) or run locally.
 
 You start with **3 hearts**. Game ends at 0 hearts or when spawn speed maxes out (too much coffee).
 
-## Deploy to GitHub Pages
-
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **GitHub Actions** (not “Deploy from a branch”).
-4. Push to `main` — the workflow in `.github/workflows/deploy-pages.yml` deploys automatically.
-5. Your game will be live at `https://<username>.github.io/fruit-ninja/`.
-
-If you see “Site not found”, wait 1–2 minutes after the Actions workflow completes, then hard-refresh.
-
-## Run locally (optional)
-
-```bash
-pip install -r requirements.txt
-python app.py
-```
-
-Open [http://localhost:5000](http://localhost:5000). Use Chrome or Edge for best camera + MediaPipe support.
-
 ## Project structure
 
 ```
