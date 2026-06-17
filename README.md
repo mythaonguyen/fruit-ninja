@@ -4,7 +4,7 @@ A webcam-powered eating game. MediaPipe tracks your mouth — open wide to start
 
 ## Play online
 
-Deploy to **GitHub Pages** (see below) or run locally.
+Deploy to **GitHub Pages** https://mythaonguyen.github.io/fruit-ninja/.
 
 ## How to play
 
