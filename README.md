@@ -26,11 +26,11 @@ You start with **3 hearts**. Game ends at 0 hearts or when spawn speed maxes out
 
 1. Push this repo to GitHub.
 2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-4. Choose branch **main** (or **master**) and folder **/ (root)**.
-5. Save. Your game will be live at `https://<username>.github.io/<repo-name>/`.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions** (not “Deploy from a branch”).
+4. Push to `main` — the workflow in `.github/workflows/deploy-pages.yml` deploys automatically.
+5. Your game will be live at `https://<username>.github.io/fruit-ninja/`.
 
-The site is fully static — no server needed. Camera access works because GitHub Pages serves over HTTPS.
+If you see “Site not found”, wait 1–2 minutes after the Actions workflow completes, then hard-refresh.
 
 ## Run locally (optional)
 
